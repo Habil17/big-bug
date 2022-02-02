@@ -313,12 +313,12 @@ void fuzzyrule(){
             (Spray_rule7a*Pe1) + (Spray_rule7b*Pe1)+ (Spray_rule7a*Nde3) + (Spray_rule7b*Nde3)+ 
             (Spray_rule8a*Pe2) + (Spray_rule8b*Pe2)+ (Spray_rule8a*Zde3) + (Spray_rule8b*Zde3)+ (Spray_rule9*Pe3) + (Spray_rule9*Pde3)) / 
             (Ne1+Nde1+Ne2+Zde1+Ne3+Pde1 +Ze1+Ze1+Nde2+Nde2+Ze2+Zde2+Ze3+Ze3+Pde2+Pde2 +Pe1+Pe1+Nde3+Nde3+Pe2+Pe2+Zde3+Zde3+Pe3+Pde3);
-  pwm_Fan = 1000-z_Fan;
+  pwm_Fan = z_Fan;
   if(z_Spray == 0){
     pwm_Spray = 0;
   }
   else{
-    pwm_Spray = 1100-z_Spray;
+    pwm_Spray = z_Spray;
   }
 }
 void setup() {
