@@ -7,11 +7,11 @@
 #define projectName "KJC"
 #define deviceName "DHT22"
 AntaresESP8266HTTP antares(ACCESSKEY);
-//--------------------------------------------------
+//---------------------------------------------------
 #define DHTPIN 14 //D0
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
-//--------------------------------------------------
+//---------------------------------------------------
 #define ensprayer 5 //D1
 #define sprayer 4 //D2
 #define fan 0 //D3
