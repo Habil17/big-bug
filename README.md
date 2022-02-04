@@ -1,5 +1,4 @@
 # Humidity Relative Control With Fuzzy Logic And IoT
---------Nothing but boring---------
 
 Tsukamoto methode - Antares IoT Platform
 
