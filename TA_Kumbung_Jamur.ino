@@ -102,7 +102,6 @@ unsigned char error_Ne(){
   else if (Nilai_error>=-15 && Nilai_error<=0){Ne=(0-Nilai_error)/15;}
   else if (Nilai_error>=0){Ne=0;}
   return Ne;
-  Nilai_error1 = Nilai_error;
 }
 unsigned char error_Ze(){
   Nilai_error1 = Nilai_error;
