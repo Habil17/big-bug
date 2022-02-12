@@ -115,8 +115,8 @@ unsigned char error_Pe(){
   Nilai_error1 = Nilai_error;
   Nilai_error = 80 - dht.readHumidity();
   if (Nilai_error<=0){Pe =0;}
-  else if (Nilai_error>=0 && Nilai_error<=70){Pe=(Nilai_error-0)/70;}
-  else if (Nilai_error>=70){Pe =1;}
+  else if (Nilai_error>=0 && Nilai_error<=15){Pe=(Nilai_error-0)/15;}
+  else if (Nilai_error>=15){Pe =1;}
   return Pe;
 }
 
